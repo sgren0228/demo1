@@ -332,11 +332,12 @@ li {
         }
     }
 
-//content 
+//content                                           
 
 // mainvisual
 .content {
-    width: 1160px;
+    background-color: red;
+    max-width: 1160px;
     flex: 1;
     @include m.sp {
         width: 100%;
